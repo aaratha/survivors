@@ -406,19 +406,18 @@ script = ExtResource("1_v2x2m")
 z_index = 2
 script = ExtResource("1_ii5xd")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+[node name="Sprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 visible = false
 position = Vector2(-0.492611, -1.90735e-06)
 scale = Vector2(1.39973, 1.39973)
 sprite_frames = SubResource("SpriteFrames_qosmx")
 animation = &"move"
-frame_progress = 0.241512
+frame_progress = 0.369046
 
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+[node name="Sprite2D2" type="Sprite2D" parent="CharacterBody2D"]
 texture = ExtResource("5_5gayc")
 
 [node name="cursor" type="CharacterBody2D" parent="."]
-unique_name_in_owner = true
 z_index = 2
 script = ExtResource("3_ip8a2")
 
